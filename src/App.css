@@ -1,0 +1,816 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+
+/* for max width of 250px */
+
+@media screen and (max-width: 250px) {
+    body {
+      background-image: url(./assets/pattern-background-mobile.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 60rem;
+    }
+  
+    .inner-body {
+      background-color: white;
+      border-radius: 15px;
+      overflow: hidden;
+      margin: 7.5% 15px;
+    }
+  
+    .btn-cancel {
+      width: 100%;
+      margin: 15px 0px;
+      border: none;
+      background: none;
+      color: rgb(107, 109, 130);
+    }
+  
+    .btn {
+      margin: 7px 17px;
+      background-color: rgb(56, 42, 225);
+      border-radius: 10px;
+      width: 85%;
+      color: white;
+      font-size: 10px;
+      height: 2rem;
+      border: none;
+      box-shadow: 0px 5px 7px rgba(177, 144, 255, 0.741);
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+  
+    .lg {
+      width: 100%;
+      align-items: center;
+    }
+  
+    .top {
+      text-align: center;
+      font-family: Verdana, sans-serif;
+      margin: 17px;
+    }
+  
+    .p-tag {
+      text-align: center;
+      line-height: 1px;
+      color: rgb(101, 102, 113);
+      font-size: 9px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+  
+    .text {
+      margin: 10px 0px;
+    }
+  
+    .plan {
+      display: flex;
+      margin: 16px;
+      max-width: 90%;
+      border-radius: 6px;
+      background-color: rgb(246, 246, 246);
+      height: 4rem;
+    }
+    .music {
+      margin: 10px;
+      width: 35px;
+    }
+  
+    .btn-2 {
+      border: none;
+      margin: 20px;
+      background: none;
+      cursor: pointer;
+      font-size: 10px;
+    }
+  
+    .inner-plan {
+      margin: 8px;
+      width: 20%;
+    }
+    .text-plan {
+      font-size: 10px;
+    }
+      .money{
+        font-size: 7px;
+      }
+  }
+
+
+
+
+
+/* FOR 320PX */
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  body {
+    background-image: url(./assets/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60rem;
+  }
+
+  .inner-body {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 7.5% 25px;
+  }
+
+  .btn-cancel {
+    width: 100%;
+    margin: 15px 0px;
+    border: none;
+    background: none;
+    color: rgb(107, 109, 130);
+  }
+
+  .btn {
+    margin: 10px 25px;
+    background-color: rgb(56, 42, 225);
+    border-radius: 10px;
+    width: 85%;
+    color: white;
+    font-size: 14px;
+    height: 2.5rem;
+    border: none;
+    box-shadow: 0px 5px 7px rgba(177, 144, 255, 0.741);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .lg {
+    width: 100%;
+    align-items: center;
+  }
+
+  .top {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    margin: 17px;
+  }
+
+  .p-tag {
+    text-align: center;
+    line-height: 15px;
+    color: rgb(101, 102, 113);
+    font-size: 11px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .text {
+    margin: px;
+  }
+
+  .plan {
+    display: flex;
+    margin: 16px;
+    max-width: 90%;
+    border-radius: 6px;
+    background-color: rgb(246, 246, 246);
+    height: 4rem;
+  }
+  .music {
+    margin: 10px;
+    width: 35px;
+  }
+
+  .btn-2 {
+    border: none;
+    margin: 20px;
+    background: none;
+    cursor: pointer;
+  }
+
+  .inner-plan {
+    margin: 13px;
+    width: 35%;
+  }
+  .text-plan {
+    font-size: 12px;
+  }
+}
+
+/* FOR 375PX - 424PX */
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  body {
+    background-image: url(./assets/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60rem;
+  }
+
+  .inner-body {
+    background-color: white;
+    border-radius: 15px;
+    margin: 8% 22px;
+  }
+
+  .btn-cancel {
+    width: 100%;
+    border: none;
+    background: none;
+    color: rgb(107, 109, 130);
+    margin: 15px 0px;
+  }
+
+  .btn {
+    margin: 10px 25px;
+    background-color: rgb(56, 42, 225);
+    border-radius: 10px;
+    width: 85%;
+    color: white;
+    font-size: 15px;
+    height: 2.7rem;
+    border: none;
+    box-shadow: 0px 5px 7px rgba(177, 144, 255, 0.741);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .lg {
+    width: 100%;
+    align-items: center;
+  }
+
+  .top {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+
+  }
+
+  .p-tag {
+    text-align: center;
+    line-height: 25px;
+    color: rgb(101, 102, 113);
+    font-size: 15px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .text {
+    margin: 18px 0px;
+  }
+
+  .plan {
+    display: flex;
+    margin: 20px 20px;
+    max-width: 90%;
+    border-radius: 6px;
+    background-color: rgb(246, 246, 246);
+
+    height: 4rem;
+  }
+  .music {
+    margin: 10px 13px;
+    width: 45px;
+  }
+
+  .btn-2 {
+    font-size: 14px;
+    border: none;
+    margin: 25px;
+    background: none;
+    cursor: pointer;
+  }
+
+  .inner-plan {
+    margin: 15px;
+    width: 30%;
+  }
+}
+
+/* FOR 425 - 767 */
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  body {
+    background-image: url(./assets/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100rem;
+    overflow: hidden;
+  }
+  .inner-body {
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 15% 35px;
+  }
+
+  .btn-cancel {
+    margin: 20px 15px;
+    width: 95%;
+    border: none;
+    background: none;
+    font-size: 14px;
+    color: rgb(107, 109, 130);
+    font-family: "Verdana";
+  }
+
+  .btn {
+    margin: 2px 25px;
+    background-color: rgb(56, 42, 225);
+    border-radius: 10px;
+    width: 87%;
+    color: white;
+    font-size: 17px;
+    height: 3rem;
+    border: none;
+    box-shadow: 2px 3px 5px rgba(199, 176, 255, 0.916);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .lg {
+    width: 100%;
+    align-items: center;
+  }
+
+  .top {
+    margin: 30px;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+  }
+
+  .p-tag {
+    line-height: 25px;
+    color: rgb(101, 102, 113);
+    font-size: 16px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .text {
+    margin: 17px;
+  }
+
+  .plan {
+    display: flex;
+    margin: 20px;
+
+    max-width: 90%;
+    border-radius: 8px;
+    background-color: rgb(246, 246, 246);
+
+    height: 4.7rem;
+  }
+  .music {
+    margin: 15px;
+    width: 50px;
+  }
+
+  .btn-2 {
+    border: none;
+    margin: 25px;
+    background: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 540;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .inner-plan {
+    margin: 20px;
+    width: 50%;
+  }
+}
+
+
+
+
+
+
+/* FOR 768 --- 1023 */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background-image: url(./assets/pattern-background-desktop.svg);
+    background-size: cover;
+    height: 100rem;
+  }
+  .inner-body {
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 15% 35px;
+  }
+
+  .btn-cancel {
+    margin: 30px 15px;
+    width: 95%;
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: rgb(107, 109, 130);
+    font-family: "Verdana";
+  }
+
+  .btn {
+    margin: 5px 50px;
+    background-color: rgb(56, 42, 225);
+    border-radius: 15px;
+    width: 87%;
+    color: white;
+    font-size: 27px;
+    height: 5rem;
+    border: none;
+    box-shadow: 2px 5px 3px rgba(199, 176, 255, 0.916);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .lg {
+    width: 100%;
+    align-items: center;
+  }
+
+  .top {
+    margin: 30px;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+  }
+
+  .p-tag {
+    line-height: 35px;
+    color: rgb(101, 102, 113);
+    font-size: 25px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .text {
+    font-size: 30px;
+    margin: 17px;
+  }
+
+  .plan {
+    justify-content: space-between;
+    display: flex;
+    margin: 30px 50px;
+    width: auto;
+    border-radius: 15px;
+    background-color: rgb(245, 244, 244);
+
+    height: 6rem;
+  }
+  .music {
+    margin: 15px;
+    width: 70px;
+  }
+
+  .btn-2 {
+    border: none;
+    margin: 40px;
+    background: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .inner-plan {
+    margin: 20px;
+  }
+  .text-plan {
+    font-size: 23px;
+ 
+  }
+  .money{
+    font-size: 23px;
+  }
+}
+
+
+
+
+
+
+
+/* FOR 1024 - 1199 */
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    body {
+      background-image: url(./assets/pattern-background-mobile.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 90rem;
+    }
+    .inner-body {
+      background-color: white;
+      border-radius: 20px;
+      overflow: hidden;
+      margin: 7% 35px;
+    }
+  
+    .btn-cancel {
+        cursor: pointer;
+      margin: 35px 15px;
+      width: 95%;
+      border: none;
+      background: none;
+      font-size: 24px;
+      color: rgb(64, 66, 79);
+      font-family: "Verdana";
+    }
+  
+    .btn {
+    cursor: pointer;
+      margin: 5px 15%;
+      background-color: rgb(56, 42, 225);
+      border-radius: 15px;
+      width: 70%;
+      color: white;
+      font-size: 30px;
+      height: 5rem;
+      border: none;
+      box-shadow: 2px 5px 3px rgba(199, 176, 255, 0.916);
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+  
+    .lg {
+      width: 100%;
+      align-items: center;
+    }
+  
+    .top {
+      margin: 30px;
+      text-align: center;
+      font-family: Verdana, sans-serif;
+    }
+  
+    .p-tag {
+      line-height: 55px;
+      color: rgb(101, 102, 113);
+      font-size: 35px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+  
+    .text {
+      font-size: 50Px;
+      margin: 17px;
+    }
+  
+    .plan {
+      display: flex;
+      margin: 50px 14%;
+      width: 70%;
+      border-radius: 15px;
+      background-color: rgb(245, 244, 244);
+  
+      height: 8rem;
+    }
+    .music {
+      margin: 20px 50px;
+      width: 90px;
+    }
+  
+    .btn-2 {
+        width: 24rem;
+      border: none;
+      margin: 45px;
+      background: none;
+      cursor: pointer;
+      font-size: 22px;
+      font-weight: 900;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .inner-plan {
+        
+      margin: 35px;
+    }
+    .text-plan {
+        
+      font-size: 23px;
+   
+    }
+    .money{
+      font-size: 27px;
+    }
+  }
+
+
+
+
+  /* FOR MIN WIDTH 1200PX - 1439 ABOVE */
+
+  @media screen and (min-width:1200px) {
+    body {
+      background-image: url(./assets/pattern-background-mobile.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 200rem;
+    }
+    .inner-body {
+      background-color: white;
+      border-radius: 30px;
+      overflow: hidden;
+      margin: 7% 50px;
+    }
+  
+    .btn-cancel {
+        cursor: pointer;
+      margin: 35px 15px;
+      width: 95%;
+      border: none;
+      background: none;
+      font-size: 35px;
+      color: rgb(64, 66, 79);
+      font-family: "Verdana";
+    }
+  
+    .btn {
+    cursor: pointer;
+      margin: 5px 10%;
+      background-color: rgb(56, 42, 225);
+      border-radius: 15px;
+      width: 80%;
+      color: white;
+      font-size: 3rem;
+      height: 7rem;
+      border: none;
+      box-shadow: 2px 5px 3px rgba(199, 176, 255, 0.916);
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+  
+    .lg {
+      width: 100%;
+      align-items: center;
+    }
+  
+    .top {
+      margin: 30px;
+      text-align: center;
+      font-family: Verdana, sans-serif;
+    }
+  
+    .p-tag {
+      line-height: 5rem;
+      color: rgb(101, 102, 113);
+      font-size: 3rem;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+  
+    .text {
+      font-size: 5rem;
+      margin: 17px;
+    }
+  
+    .plan {
+      display: flex;
+      margin: 50px 10%;
+      width: 80%;
+      border-radius: 15px;
+      background-color: rgb(245, 244, 244);
+  
+      height: 11rem;
+    }
+    .music {
+      margin: 25px 70px;
+      width: 8rem;
+    }
+  
+    .btn-2 {
+        color: rgb(62, 62, 213);
+        width: 15rem;
+      border: none;
+      margin: 70px;
+      background: none;
+      cursor: pointer;
+      font-size: 40px;
+      font-weight: 900;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .inner-plan {
+        
+      margin: 50px 30px;
+    }
+    .text-plan {
+        
+      font-size: 35px;
+   
+    }
+    .money{
+      font-size: 40px;
+    }
+  }
+
+
+
+/* FROM 1444 ABOVE */
+
+@media screen and (min-width: 1440px) {
+    body {
+      background-image: url(./assets/pattern-background-mobile.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 135rem;
+    }
+    .inner-body {
+      background-color: white;
+      border-radius: 30px;
+      overflow: hidden;
+      margin: 7% 3%;
+    }
+  
+    .btn-cancel {
+        cursor: pointer;
+      margin: 35px 15px;
+      width: 95%;
+      border: none;
+      background: none;
+      font-size: 50px;
+      color: rgb(64, 66, 79);
+      font-family: "Verdana";
+    }
+  
+    .btn {
+      cursor: pointer;
+      margin: 5px 19%;
+      background-color: rgb(56, 42, 225);
+      border-radius: 15px;
+      width: 60%;
+      color: white;
+      font-size: 4rem;
+      height: 9rem;
+      border: none;
+      box-shadow: 2px 5px 3px rgba(199, 176, 255, 0.916);
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+  
+    .lg {
+      width: 100%;
+      align-items: center;
+    }
+  
+    .top {
+      margin: 30px;
+      text-align: center;
+      font-family: Verdana, sans-serif;
+    }
+  
+    .p-tag {
+      line-height: 6rem;
+      color: rgb(101, 102, 113);
+      font-size: 4rem;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+  
+    .text {
+      font-size: 7rem;
+      margin: 17px;
+    }
+  
+    .plan {
+      display: flex;
+      margin: 50px 14%;
+      width: 70%;
+      border-radius: 15px;
+      background-color: rgb(245, 244, 244);
+  
+      height: 12rem;
+    }
+    .music {
+      margin: 25px 70px;
+      width: 9rem;
+    }
+  
+    .btn-2 {
+        color: rgb(62, 62, 213);
+        width: 25rem;
+      border: none;
+      margin: 70px;
+      background: none;
+      cursor: pointer;
+      font-size: 40px;
+      font-weight: 900;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .inner-plan {
+        
+      margin: 45px 20px;
+    }
+    .text-plan {
+        
+      font-size: 40px;
+   
+    }
+    .money{
+      font-size: 45px;
+    }
+  }
